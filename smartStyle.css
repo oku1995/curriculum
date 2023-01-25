@@ -1,0 +1,23 @@
+@media screen and (min-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
+    .contents {
+        display: none; /* この値を指定された要素はブラウザ上で非表示 */
+        float: none; /* 要素の浮動化の解除 */
+        max-width: 1000px; /* 要素がこれ以上は大きくならない幅の指定 */
+        width: 100%; /* 横幅を親要素の幅に合わせる */
+        margin-left: auto; /* ボックス外側の左の余白を親要素の幅に合わせる */
+        margin-right: auto; /* ボックス外側の右の余白を親要素の幅に合わせる */    
+    }
+
+
+    img {
+        max-width: 100%; /* 横幅の最大値を親要素の幅に合わせる */
+        height: auto; /* 縦幅を親要素の幅に合わせる */
+        }
+          
+}
